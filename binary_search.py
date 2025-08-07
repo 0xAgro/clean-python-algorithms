@@ -20,4 +20,4 @@ def bin_search(self, A, target):
     else:
       return m
       
-    return -1
+  return -1
