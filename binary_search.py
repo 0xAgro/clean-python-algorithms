@@ -19,5 +19,5 @@ def bin_search(self, A, target):
       r = m - 1
     else:
       return m
-
-  return -1
+      
+    return -1
