@@ -37,12 +37,6 @@ If you found this repository useful and would like to support my work, please co
 
 ---
 
-## 📄 License
-
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🤝 Contributing
 
 If you have any suggestions, improvements, or issues, feel free to create a **Pull Request** or **Issue**! Contributions are always welcome.
