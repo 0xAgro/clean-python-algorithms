@@ -19,6 +19,8 @@ All tutorials in this repository are linked to **YouTube** videos, where I expla
 Each algorithm or data structure is implemented in its own Python file, titled appropriately. Here is a list of the available files:
 
 - **Searching Algorithms**: `binary_search.py`
+- **NOTES**
+  - `monotonic_stack.py` (NGE)
 
 ---
 
