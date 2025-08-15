@@ -10,7 +10,7 @@ Welcome to this repository dedicated to **Python algorithms and data structures*
 
 All tutorials in this repository are linked to **YouTube** videos, where I explain and demonstrate the algorithm or data structure in detail.
 
-- [**Watch all tutorials here!**](https://www.youtube.com/playlist?list=PLpCYhic-IxVcO8NJ4BnEmNwy-pAvuckvg)
+- [**Watch all tutorials here!**](https://www.youtube.com/playlist?list=PLpCYhic-IxVd-luG7An4Kn-gBYcp11B5m)
 
 ---
 
