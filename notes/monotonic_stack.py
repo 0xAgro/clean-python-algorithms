@@ -1,4 +1,5 @@
 def NGE(self, A):
+  A = A[:]
   stack = []
   res = []
 
