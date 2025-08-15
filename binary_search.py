@@ -8,16 +8,16 @@
 # ==============================
 
 def bin_search(self, A, target):
-  l, r = 0, len(A) - 1
+  l, r = 0, len(A) - 1 # Initial Bounds
   
-  while l <= r:
-    m = (l + r) // 2
+  while l <= r: # While our bounds dont meet
+    m = (l + r) // 2 # Calculate midpoint between our bounds
     
-    if A[m] < target:
-      l = m + 1
+    if A[m] < target: 
+      l = m + 1 # We can cut off the left side
     elif A[m] > target: 
-      r = m - 1
+      r = m - 1 # We can cut off the right side
     else:
-      return m
+      return m # Found
       
-  return -1
+  return -1 # Not found
