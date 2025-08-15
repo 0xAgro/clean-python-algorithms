@@ -16,7 +16,7 @@ def NGE(self, A):
   while A:
     a = A.pop() # Pop the last element 
             
-    while stack and a > stack[-1]:
+    while stack and a >= stack[-1]:
       stack.pop() # Pop monotonic stack until we can insert to keep it monotonic
 
     res.append(-1 if not stack else stack[-1]) # Our result is the top of the stack or -1 if empty
