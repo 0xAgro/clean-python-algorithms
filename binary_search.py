@@ -4,7 +4,8 @@
 # This code is part of a tutorial series.
 # For detailed explanations and demonstrations, check out the playlist:
 # 
-# 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVcch1TmsDfeJJ6cjyJTFwGW>
+# 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVcO8NJ4BnEmNwy-pAvuckvg>
+# 🎥 Watch Binary Search here: <https://youtube.com/shorts/LmvCh7HPkWQ>
 # ==============================
 
 def bin_search(self, A, target):
