@@ -5,8 +5,8 @@
 # For detailed explanations and demonstrations, check out the playlist:
 # 
 # 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU>
+# 🎥 Watch Note #6 Monotonic Stack here: <https://youtube.com/shorts/osN997hwqjY>
 # ==============================
-
 
 def NGE(self, A):
   A = A[:] # Input is modified so we create a copy
