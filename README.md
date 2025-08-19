@@ -10,8 +10,9 @@ Welcome to this repository dedicated to **Python algorithms and data structures*
 
 All tutorials in this repository are linked to **YouTube** videos, where I explain and demonstrate the algorithm or data structure in detail.
 
-- [**Watch all tutorials here!**](https://www.youtube.com/playlist?list=PLpCYhic-IxVcO8NJ4BnEmNwy-pAvuckvg) (Algorithms)
-- [**Watch all tutorials here!**](https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU) (Notes)
+- **Watch all tutorials here!**
+  - [Algorithms](https://www.youtube.com/playlist?list=PLpCYhic-IxVcO8NJ4BnEmNwy-pAvuckvg)
+  - [Notes](https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU)
 
 ---
 
