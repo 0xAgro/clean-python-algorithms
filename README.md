@@ -24,7 +24,7 @@ Each algorithm or data structure is implemented in its own Python file, titled a
 - **NOTES**
   - [`note_5_line_sweep.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_5_line_sweep.py)
   - [`note_6_monotonic_stack.py` (NGE)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_6_monotonic_stack.py)
-  - [`note_7_memoization.py` (fib)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_7_memoization.py`)
+  - [`note_7_memoization.py` (fib)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_7_memoization.py)
   - [`note_9_sliding_window.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_9_sliding_window.py)
 
 ---
