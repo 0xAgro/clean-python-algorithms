@@ -16,7 +16,7 @@ def line_sweep(self, I):
   # Add 1 to the start value, subtract 1 from the end
   for s, e in I:
     A[s] = A[s] + 1 
-    A[e] = A[e + 1] - 1
+    A[e + 1] = A[e + 1] - 1
 
   # Running sum
   for idx in range(1, len(A)):
