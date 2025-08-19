@@ -11,7 +11,7 @@
 # Version shown in the video (expensive)
 # I -> [[start, end]]
 def line_sweep(self, I):
-  A = [0]*(max([e for _, e in I]) + 1) # Setting array size to max end value
+  A = [0]*(max([e for _, e in I]) + 2) # Setting array size to max end value
 
   # Add 1 to the start value, subtract 1 from the end
   for s, e in I:
