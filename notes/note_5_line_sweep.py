@@ -31,7 +31,7 @@ def line_sweep_sd(self, I):
 
   for s, e in I:
     d[s] = d[s] + 1 if s in d else 1
-    d[e] = d[e + 1] - 1 if e + 1 in d else -1
+    d[e + 1] = d[e + 1] - 1 if e + 1 in d else -1
 
   res, cnt = 0, 0 
 
