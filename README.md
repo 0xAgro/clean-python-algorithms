@@ -19,10 +19,12 @@ All tutorials in this repository are linked to **YouTube** videos, where I expla
 
 Each algorithm or data structure is implemented in its own Python file, titled appropriately. Here is a list of the available files:
 
-- **Searching Algorithms**: `binary_search.py`
+- **Searching Algorithms**: [`binary_search.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/binary_search.py)
 - **NOTES**
-  - `note_6_monotonic_stack.py` (NGE)
-  - `note_7_memoization.py` (fib)
+  - [`note_5_line_sweep.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_5_line_sweep.py)
+  - [`note_6_monotonic_stack.py` (NGE)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_6_monotonic_stack.py)
+  - [`note_7_memoization.py` (fib)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_7_memoization.py`)
+  - [`note_9_sliding_window.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_9_sliding_window.py)
 
 ---
 
