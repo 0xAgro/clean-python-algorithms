@@ -8,7 +8,7 @@
 # 🎥 Watch Level Order Traversal here: <>
 # ==============================
 
-def lot(self, root)
+def lot(self, root):
 
   q = deque([root])
 
@@ -16,6 +16,8 @@ def lot(self, root)
     
     for idx in range(len(q)):
       node = q.popleft()
+
+      print(node)
 
       if node.left:
         q.append(node.left)
