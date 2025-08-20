@@ -23,6 +23,9 @@ Each algorithm or data structure is implemented in its own Python file, titled a
 - **Searching Algorithms**:
   - [`binary_search.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/binary_search.py)
   - [`sieve.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/sieve.py)
+  - [`breadth_first_search.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/breadth_first_search.py)
+  - [`depth_first_search.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/depth_first_search.py)
+  - [`level_order_traversal.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/level_order_traversal.py)
 - **NOTES**
   - [`note_5_line_sweep.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_5_line_sweep.py)
   - [`note_6_monotonic_stack.py` (NGE)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_6_monotonic_stack.py)
