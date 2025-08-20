@@ -5,7 +5,7 @@
 # For detailed explanations and demonstrations, check out the playlist:
 # 
 # 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVcO8NJ4BnEmNwy-pAvuckvg>
-# 🎥 Watch Sieve here: <>
+# 🎥 Watch Sieve here: <https://youtu.be/kQAQULBRsDI>
 # ==============================
 
 def sieve(self, n):
