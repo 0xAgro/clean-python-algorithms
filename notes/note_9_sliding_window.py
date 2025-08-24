@@ -9,7 +9,7 @@
 # ==============================
 
 # This returns the max sum of a sliding window, change logic line for your use
-def sliding_window(self, A):
+def sliding_window(self, A, k):
   cnt, res = sum(A[:k]), 0 # Get initial sum seen in video
 
   for idx in range(k, len(A) + 1):
