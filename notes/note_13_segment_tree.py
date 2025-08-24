@@ -1,3 +1,13 @@
+# ==============================
+# 📹 0xAgro Code Tutorial Playlist
+# ==============================
+# This code is part of a tutorial series.
+# For detailed explanations and demonstrations, check out the playlist:
+# 
+# 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU>
+# 🎥 Watch Note #13 Segment Tree here: <>
+# ==============================
+
 class SegTree:
 
   def __init__(self, A):  
