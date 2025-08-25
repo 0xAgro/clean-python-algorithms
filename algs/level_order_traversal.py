@@ -9,7 +9,8 @@
 # ==============================
 
 def lot(self, root):
-
+  if not root:
+    return -1
   q = deque([root])
 
   while q:
