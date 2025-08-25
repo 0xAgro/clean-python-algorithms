@@ -5,7 +5,7 @@
 # For detailed explanations and demonstrations, check out the playlist:
 # 
 # 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU>
-# 🎥 Watch Note #14 Counting Sort here: <>
+# 🎥 Watch Note #14 Counting Sort here: <https://youtu.be/xO55FK_sO8w>
 # ==============================
 
 def count_sort(self, A):
