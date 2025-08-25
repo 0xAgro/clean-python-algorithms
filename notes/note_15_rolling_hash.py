@@ -5,7 +5,7 @@
 # For detailed explanations and demonstrations, check out the playlist:
 # 
 # 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU>
-# 🎥 Watch Note #15 Rolling Hash here: <>
+# 🎥 Watch Note #15 Rolling Hash here: <https://youtu.be/1KPtZ7eaO7Y>
 # ==============================
 
 def rolling_hash(self, s, k):
