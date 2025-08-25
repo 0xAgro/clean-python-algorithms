@@ -5,7 +5,7 @@
 # For detailed explanations and demonstrations, check out the playlist:
 # 
 # 🎥 Watch the full playlist here: <https://www.youtube.com/playlist?list=PLpCYhic-IxVeWoPtKptbuBXNDccVAGOdU>
-# 🎥 Watch Note #13 Segment Tree here: <>
+# 🎥 Watch Note #13 Segment Tree here: <https://youtu.be/KJAtdznmCG8>
 # ==============================
 
 class SegTree:
