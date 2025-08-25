@@ -17,6 +17,9 @@ def lot(self, root):
     for idx in range(len(q)):
       node = q.popleft()
 
+      if not node:
+        continue
+
       print(node)
 
       if node.left:
