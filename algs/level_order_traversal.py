@@ -8,25 +8,28 @@
 # 🎥 Watch Level Order Traversal here: <>
 # ==============================
 
+# BFS but allows us to do computation per level
 def lot(self, root):
   if not root:
-    return -1
-  q = deque([root])
+    return -1 # To prevent trying to access a None value later
+  q = deque([root]) # Initialize our double ended q
 
-  while q:
+  while q: # Loop while q is full
     
-    for idx in range(len(q)):
+    for idx in range(len(q)): # IMPORTANT: allows us to access each level
       node = q.popleft()
 
       if not node:
         continue
 
-      print(node)
+      print(node) # Computation logic
 
       if node.left:
         q.append(node.left)
 
       if node.right:
         q.append(node.right)
+
+    # Level Logic goes here outside the for loop
       
   return -1 
