@@ -38,7 +38,7 @@ Each algorithm or data structure is implemented in its own Python file, titled a
 
 If you found this repository useful and would like to support my work, please consider buying me a coffee! Your support helps me continue creating quality tutorials and content.
 
-[**Buy me a coffee**](buymeacoffee.com/0xAgro)
+[**Buy me a coffee**](https://buymeacoffee.com/0xagro)
 
 ---
 
