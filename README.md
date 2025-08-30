@@ -45,6 +45,7 @@ If you found this repository useful and would like to support my work, please co
 ## 🔗 Links
 
 - **YouTube Channel:** [0xAgro](https://www.youtube.com/@0xAgro)
+- **日本語チャンネル:** [アグロ](https://www.youtube.com/@%E3%82%A2%E3%82%B0%E3%83%AD)
 - **GitHub Repository:** [Clean Python Algorithms](https://github.com/0xAgro/clean-python-algorithms)
 
 ---
