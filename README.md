@@ -27,10 +27,10 @@ Each algorithm or data structure is implemented in its own Python file, titled a
   - [`depth_first_search.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/depth_first_search.py)
   - [`level_order_traversal.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/level_order_traversal.py)
 - **NOTES**
-  - [`note_5_line_sweep.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_5_line_sweep.py)
-  - [`note_6_monotonic_stack.py` (NGE)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_6_monotonic_stack.py)
-  - [`note_7_memoization.py` (fib)](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_7_memoization.py)
-  - [`note_9_sliding_window.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/notes/note_9_sliding_window.py)
+  - [`line_sweep.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/line_sweep.py)
+  - [`monotonic_stack.py` (NGE)](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/monotonic_stack.py)
+  - [`memoization.py` (fib)](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/memoization.py)
+  - [`sliding_window.py`](https://github.com/0xAgro/clean-python-algorithms/blob/main/algs/sliding_window.py)
 
 ---
 
