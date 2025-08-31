@@ -1,4 +1,4 @@
-# ⭐ tl;dr (要約すると)
+# ⭐ TL;DR (要約すると)
 
 Clean Leetcode templates to solve most problems in python
 
