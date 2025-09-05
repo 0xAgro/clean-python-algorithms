@@ -35,7 +35,7 @@ def line_sweep_sd(self, I):
 
   res, cnt = 0, 0 
 
-  for val in self.d.values():
+  for val in d.values():
     cnt += val
     # interact with the interval sizes here by setting res
 
