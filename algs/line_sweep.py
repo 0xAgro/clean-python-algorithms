@@ -27,7 +27,7 @@ def line_sweep(self, I):
 # I -> [[start, end]]
 # SortedDict version (less expensive)
 def line_sweep_sd(self, I):
-  sd = SortedDict()
+  d = SortedDict()
 
   for s, e in I:
     d[s] = d[s] + 1 if s in d else 1
@@ -35,7 +35,7 @@ def line_sweep_sd(self, I):
 
   res, cnt = 0, 0 
 
-  for val in self.sd.values():
+  for val in self.d.values():
     cnt += val
     # interact with the interval sizes here by setting res
 
