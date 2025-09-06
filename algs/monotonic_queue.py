@@ -9,17 +9,21 @@
 # ==============================
 
 # Seg Tree is nlogn, this is n
-def max_window(self, A):
+def max_window(self, A, k):
     q = deque()  # Monotonic Queue
     res = []
 
-    while A:
-        a = A.pop()
+    for idx, a in enumerate(A):
 
-        while q and a >= q[-1]:
+        while q and A[q[-1]] <= a:
             q.pop()
-        
-        res.append(-1 if not q else q[0])
-        q.append(a)
+
+        q.append(idx)
+
+        if q[0] <= idx - k:
+            q.popleft()
+
+        if idx >= k - 1:
+            res.append(A[q[0]])
 
     return res
