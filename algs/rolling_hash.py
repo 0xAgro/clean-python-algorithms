@@ -30,3 +30,41 @@ def rolling_hash(self, s, k):
           h = (h * BASE + r) % MOD
 
   return len(set(res)) != len(res)
+
+
+# Rolling hash class to avoid mental overhead
+class RollingHash:
+
+  def __init__(self):
+    self.hash = 0
+    self.length = 0
+    self.pow = [1]
+    self.MOD = 10**9 + 9
+    self.BASE = 137
+
+  def check_pow(self, n):
+    while len(self.pow) <= n:
+      self.pow.append((self.pow[-1] * self.BASE) % self.MOD)
+
+  def append(self, c):
+    val = ord(c) - ord('a') + 1
+    self.hash = (self.hash * self.BASE + val) % self.MOD
+    self.length += 1
+
+  def appendleft(self, c):
+    val = ord(c) - ord('a') + 1
+    self.check_pow(self.length) 
+    self.hash = (val * self.pow[self.length] + self.hash) % self.MOD
+    self.length += 1
+
+  def pop(self, c):
+    val = ord(c) - ord('a') + 1
+    inv_base = pow(self.BASE, self.MOD-2, self.MOD)
+    self.hash = (self.hash - val) * inv_base % self.MOD
+    self.length -= 1
+
+  def popleft(self, c):
+    val = ord(c) - ord('a') + 1
+    self.check_pow(self.length-1)
+    self.hash = (self.hash - val * self.pow[self.length-1]) % self.MOD
+    self.length -= 1
