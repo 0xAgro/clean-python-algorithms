@@ -35,7 +35,7 @@ def rolling_hash(self, s, k):
 # Rolling hash class to avoid mental overhead
 class RollingHash:
 
-  def __init__(self, s):
+  def __init__(self, s = ""):
     self.hash = 0
     self.length = 0
     self.pow = [1]
