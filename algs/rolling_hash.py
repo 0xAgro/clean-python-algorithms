@@ -35,12 +35,15 @@ def rolling_hash(self, s, k):
 # Rolling hash class to avoid mental overhead
 class RollingHash:
 
-  def __init__(self):
+  def __init__(self, s):
     self.hash = 0
     self.length = 0
     self.pow = [1]
     self.MOD = 10**9 + 9
     self.BASE = 137
+
+    for c in s:
+        self.append(c)
 
   def check_pow(self, n):
     while len(self.pow) <= n:
