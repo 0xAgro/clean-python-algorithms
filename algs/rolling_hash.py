@@ -39,8 +39,8 @@ class RollingHash:
     self.hash = 0
     self.length = 0
     self.pow = [1]
-    self.MOD = 10**9 + 9
-    self.BASE = 137
+    self.MOD = 2**61 - 1
+    self.BASE = 1315423911
 
     for c in s:
         self.append(c)
