@@ -1,7 +1,53 @@
 
 
 
+def generate_all_serials(self, root):
+        val = []
+        res = []
 
+        def dfs(node):
+            if not node:
+                return 'X'
+            
+            l = dfs(node.left)
+            r = dfs(node.right)
+            s = str(node.val) + '.' + l + '.' + r
+
+            res.append(s)
+            return s
+        
+        dfs(root)
+        return res
+
+def serialize(self, root):
+        val = []
+
+        def dfs(node):
+            if not node:
+                val.append('X')
+                return
+            
+            val.append(str(node.val))
+            dfs(node.left)
+            dfs(node.right)
+        
+        dfs(root)
+        return '.'.join(val)
+        
+
+    def deserialize(self, data):
+        val = data.split('.')[::-1]
+
+        def dfs():
+            if val[-1] == 'X':
+                val.pop()
+                return None
+            node = TreeNode(int(val.pop()))
+            node.left = dfs()
+            node.right = dfs()
+            return node
+        
+        return dfs()
 
 
 # BFS Less overhead, but isnt good for linear node serialization
