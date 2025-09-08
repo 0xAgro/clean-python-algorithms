@@ -1,3 +1,10 @@
+
+
+
+
+
+
+# BFS Less overhead, but isnt good for linear node serialization
 def serialize(self, root):
         if not root:
             return ""
