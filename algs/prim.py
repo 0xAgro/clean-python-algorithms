@@ -2,7 +2,6 @@ class Solution:
     def minCostConnectPoints(self, P: List[List[int]]) -> int:
         n = len(P)
         seen = set()
-        g = {}
 
         h = [[0, P[0]]]
         heapify(h)
