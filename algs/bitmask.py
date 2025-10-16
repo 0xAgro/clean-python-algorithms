@@ -13,3 +13,17 @@ class Bitmask:
 
     def read(self, i):
         return (self.mask >> i) & 1
+
+
+
+# CONSIDER ADDING: def bitmask_idx(self, mask):
+        '''
+        res = []
+        idx = 0
+        while mask:
+            if mask & 1:
+                res.append(idx)
+            mask >>= 1
+            idx += 1
+        return res
+    '''
