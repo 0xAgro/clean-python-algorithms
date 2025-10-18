@@ -1,5 +1,6 @@
-🚨 This project is currently under active development
-🚨 このプロジェクトは現在開発中です
+🚨 This project is currently under active development 🚨
+
+🚨 このプロジェクトは現在開発中です 🚨
 
 # ⭐ TL;DR (要約すると)
 
