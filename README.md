@@ -1,3 +1,6 @@
+🚨 This project is currently under active development
+🚨 このプロジェクトは現在開発中です
+
 # ⭐ TL;DR (要約すると)
 
 Clean Leetcode templates to solve most problems in python
