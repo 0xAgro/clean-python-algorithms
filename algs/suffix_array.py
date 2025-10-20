@@ -8,7 +8,7 @@ class Solution:
         sa = list(range(n))
         
         while True:
-            sa.sort(key=lambda x: (rank[x], rank[x + k] if x + k < n else -1))
+            sa.sort(key=lambda x: (rank[x], rank[x + k] if x + k < n else -1)) # CHANGE TO RADIX
             
             tmp[sa[0]] = 0
             for i in range(1, n):
